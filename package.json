@@ -1,0 +1,28 @@
+{
+  "name": "@faisal-nadeem/llm-cost-estimator",
+  "version": "1.0.0",
+  "description": "Estimate token counts and API cost for OpenAI and Anthropic models before you send a request. Zero dependencies.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "pricing.json", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["llm", "openai", "anthropic", "claude", "gpt", "tokens", "token-counter", "cost", "pricing", "estimator", "ai"],
+  "author": {
+    "name": "Faisal Nadeem",
+    "email": "faisalndm143@gmail.com",
+    "url": "https://faisalnadeem.net"
+  },
+  "license": "MIT",
+  "homepage": "https://faisalnadeem.net/llm-cost-estimator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-avenger/llm-cost-estimator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-avenger/llm-cost-estimator/issues"
+  },
+  "engines": { "node": ">=16" },
+  "publishConfig": { "access": "public" }
+}

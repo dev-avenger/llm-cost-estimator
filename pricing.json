@@ -1,0 +1,26 @@
+{
+  "updated": "2026-11-07",
+  "currency": "USD",
+  "unit": "per 1M tokens",
+  "note": "Compiled from third-party price trackers; verify against the providers' official pricing pages. Override any entry with the `pricing` option.",
+  "models": {
+    "claude-fable-5-1":   { "provider": "anthropic", "input": 10,   "output": 50,  "cachedInput": 0.25 },
+    "claude-opus-5-5":    { "provider": "anthropic", "input": 4,    "output": 20,  "cachedInput": 0.20 },
+    "claude-opus-5":      { "provider": "anthropic", "input": 5,    "output": 25,  "cachedInput": 0.50 },
+    "claude-sonnet-5-5":  { "provider": "anthropic", "input": 2,    "output": 10,  "cachedInput": 0.10 },
+    "claude-sonnet-5":    { "provider": "anthropic", "input": 2,    "output": 10,  "cachedInput": 0.20 },
+    "claude-haiku-5-5":   { "provider": "anthropic", "input": 0.10, "output": 0.50, "cachedInput": 0.01 },
+    "claude-haiku-4-5":   { "provider": "anthropic", "input": 1,    "output": 5,   "cachedInput": 0.10 },
+    "gpt-6-astra":        { "provider": "openai", "input": 10,  "output": 50,  "cachedInput": 1 },
+    "gpt-6.1-sol":        { "provider": "openai", "input": 2,   "output": 10,  "cachedInput": 0.10 },
+    "gpt-6-sol":          { "provider": "openai", "input": 2,   "output": 10,  "cachedInput": 0.20 },
+    "gpt-6.1-terra":      { "provider": "openai", "input": 1,   "output": 5,   "cachedInput": 0.05 },
+    "gpt-6-luna":         { "provider": "openai", "input": 0.10, "output": 0.50, "cachedInput": 0.01 },
+    "gpt-5.6-terra":      { "provider": "openai", "input": 2,   "output": 12,  "cachedInput": 0.20 },
+    "gpt-5.6-luna":       { "provider": "openai", "input": 0.20, "output": 1.20, "cachedInput": 0.02 },
+    "gpt-5.5":            { "provider": "openai", "input": 5,   "output": 30,  "cachedInput": 0.50 },
+    "gpt-5.4":            { "provider": "openai", "input": 2.5, "output": 15,  "cachedInput": 0.25 },
+    "gpt-5.4-mini":       { "provider": "openai", "input": 0.75, "output": 4.5, "cachedInput": 0.075 },
+    "gpt-5.4-nano":       { "provider": "openai", "input": 0.20, "output": 1.25, "cachedInput": 0.02 }
+  }
+}
